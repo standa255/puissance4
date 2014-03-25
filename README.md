@@ -1,4 +1,4 @@
-jeux puissance 4
+## Jeux puissance 4
 
 Sio-2109 initiation à la programmation
 
