@@ -2,10 +2,9 @@
 
 Sio-2109 initiation à la programmation
 
+**Éguipe 5:**
 Stanislav Vavra
 Dominic Riverin-Gaudreau
 Julien L'Heureux Houde 
 
-équipe 5
-
-Github : Sai001
+**Github:** Sai001
