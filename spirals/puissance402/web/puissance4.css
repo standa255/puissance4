@@ -17,7 +17,7 @@ h1, p {
   height: 480px;
   position: relative;
   border: 1px solid #ccc;
-  background-color: #fff;
+  background-image:url('puiss4_background.png');
 }
 
 #sample_text_id {

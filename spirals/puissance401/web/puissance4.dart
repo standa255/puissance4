@@ -1,16 +1,15 @@
 import 'dart:html';
 
-void main() {
-  querySelector("#sample_text_id")
-    ..text = "Click me!"
-    ..onClick.listen(reverseText);
+import 'package:puissance4/model/table.dart';
+import 'package:puissance4/view/geo.dart';
+
+main() {
+  // model
+  var grille = new Grille(6, 7);
+  for (Cell c in grille.cells) assert(c.text == null);
+  // view
+  var canvas = querySelector('#canvas');
+  new Surface(canvas);
 }
 
-void reverseText(MouseEvent event) {
-  var text = querySelector("#sample_text_id").text;
-  var buffer = new StringBuffer();
-  for (int i = text.length - 1; i >= 0; i--) {
-    buffer.write(text[i]);
-  }
-  querySelector("#sample_text_id").text = buffer.toString();
-}
+
